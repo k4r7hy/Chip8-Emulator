@@ -1,5 +1,19 @@
 # Chip8-Emulator
-A simple Chip8 emulator written in c, It was initially used on the COSMAC VIP and Telmac 1800 8-bit microcomputers in the mid-1970s. CHIP-8 programs are run on a CHIP-8 virtual machine. It was made to allow video games to be more easily programmed for said computers.
+A simple Chip8 emulator written in c. Chip8 was mostly written as a hobby, but its source code is easy enough to understand.
+I tested it with a couple of ROM's it seems to be working. 
 
 ![Space Invaders](http://i.imgur.com/6DUz0N8.png "Space Invaders")
-*Space Invaders*
+
+# Features
+- SDL library is used to handle graphics and input
+- CPU fully implimented
+- Uses funcion pointers for decoding opcodes
+- All opcodes have been implimented
+
+# Installing
+You will need to download SDL library to compile it. Copy all the files into a folder and compile it using any C Compiler
+
+# Known Issues:
+- Sound doesn't work yet
+- Some ROMS may not work or may be buggy
+- Input logic is a bit screwed up
